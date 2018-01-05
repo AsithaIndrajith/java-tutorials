@@ -13,8 +13,8 @@ public class regularExpression{
 		Pattern r = Pattern.compile(pattern);
 		// Now create matcher object.
 		Matcher m = r.matcher(line);
-		if (m.find( )) {
-			System.out.println("Found value: " + m.group(0) );
+		if (m.find( )) {//m is a matching object,m.find do search is there a pattern in the line
+			System.out.println("Found value: " + m.group(0) );//if true we access that by group method
 		} 
 		else {
 			System.out.println("NO MATCH");
