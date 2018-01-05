@@ -2,6 +2,8 @@ package MT1;
 import java.util.regex.Matcher;//importing Matcher
 import java.util.regex.Pattern;//importing Patern
 
+//Regular expressions are used to pattern matching things 
+
 public class regularExpression{
 	public static void main( String[] args){
 		// String to be scanned to find the pattern.
