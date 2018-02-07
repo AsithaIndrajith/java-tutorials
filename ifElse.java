@@ -1,4 +1,4 @@
-package MT1;
+package javaLearning;
 import java.util.Scanner;
 public class ifElse {
 

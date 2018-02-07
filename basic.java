@@ -1,4 +1,4 @@
-package MT1;
+package javaLearning;
 
 public class basic {//We have to write our code inside a class always
 	public static void main(String[] args) {//Main Method

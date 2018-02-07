@@ -1,4 +1,4 @@
-package MT1;
+package javaLearning;
 
 public class logicalOperators {
 	public static void main(String[] args) {

@@ -1,23 +1,23 @@
-package MT1;
+package javaLearning;
 import java.util.regex.Matcher;//importing Matcher
-import java.util.regex.Pattern;//importing Patern
-
-//Regular expressions are used to pattern matching things 
+import java.util.regex.Pattern;//importing Pattern
 
 public class regularExpression{
 	public static void main( String[] args){
 		// String to be scanned to find the pattern.
-		String line = "I am NOT DOG right?";
-		String pattern = "(DOG)";//pattern that need to search
+		String line = "This order was placed for QT3000! OK 1500?";
+		String pattern = "(\\d+)(\\d+)";//pattern that need to search
 		// Create a Pattern object
 		Pattern r = Pattern.compile(pattern);
 		// Now create matcher object.
 		Matcher m = r.matcher(line);
-		if (m.find( )) {//m is a matching object,m.find do search is there a pattern in the line
-			System.out.println("Found value: " + m.group(0) );//if true we access that by group method
+		if (m.find( )) {
+			System.out.println("Found value: " + m.group(0) );
+			System.out.println("Found value: " + m.group(1) );
 		} 
 		else {
 			System.out.println("NO MATCH");
 		}
+		
 	}
 }
